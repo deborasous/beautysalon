@@ -40,7 +40,7 @@ img {
 
 
     /*--fonts--*/
-    --font-size-title: 1.75rem;
+    --font-size-title: 3rem;
     /*font 30*/
     --font-size-subtitle: 1.5rem;
     /*font 24*/
@@ -75,15 +75,20 @@ img {
 }
 
 .title {
-    font: 700 var(--font-size-title) var(--font-type-title);
+    font: 700 2.5rem var(--font-type-title);
     color: var(--title-color);
-    -webkit-font-smoothing: auto;
     margin: 0 0 1rem 0;
-    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+.subtitle {
+font: 700 1.875rem var(--font-type-title);
+color: var(--title-color);
+margin-bottom: 1.5rem;
 }
 
 h3 {
-    font: 700 var(--font-size-subtitle) var(--font-size-title);
+    font: 700 1.125rem var(--font-type-title);
     color: var(--title-color);
     margin: 1.5rem 0;
     margin-bottom: 0.75rem;
@@ -400,7 +405,7 @@ nav.show div.icon-close {
 
 .card-service {
     /*formação dos cards*/
-    padding: 3.625rem 2rem;
+    padding: 2rem 0.5rem;
     box-shadow: 0px 0px 12px var(--shadow-color);
     border-bottom: 0.25rem solid var(--base-color);
     border-radius: 6rem 0;
@@ -427,13 +432,10 @@ nav.show div.icon-close {
     margin-right: 0;
     position: relative;
     overflow: hidden;
-
 }
 
 #testimonials header {
-    margin-left: 1.5rem;
-    /*...ajusta a margem do header para que o titulo fique ajustado com o grid da pagina*/
-    margin-right: 1.5rem;
+    margin-inline: 1.5rem;
 }
 
 #testimonials blockquote {
@@ -712,7 +714,7 @@ footer .social a:hover {
     #home .text {
         margin: 0;
         order: 0;
-        max-width: 24.75rem;
+        max-width: 30.75rem;
         text-align: left;
     }
 
@@ -763,8 +765,8 @@ footer .social a:hover {
     }
 
     .card-service {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 

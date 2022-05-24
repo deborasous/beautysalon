@@ -76,8 +76,6 @@ function backToTop() {
     }
 }
 
-
-
 /*MENU ATIVO CONFORME A SEÇÃO VISIVEL NA PAGINA*/
 const sections = document.querySelectorAll('main section[id]')
 
