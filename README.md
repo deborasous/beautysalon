@@ -8,12 +8,20 @@ Simulação de site simples para salão de beleza.
 
 
 ## Tecnologias utilizadas
-- HTML
-- CSS
-- Javascript
-- Swiperjs: Cards de depoimentos construidos com loop
+- `HTML`: estrutura simples e semântico.
+- `CSS`: estilização de página.
+- `Javascript`: animação de scroll reveal, Swiper pagination e menu.
+- `Swiperjs`: para criação de cards de depoimentos com loop.
+- `ScrollReveal`: animação de elementos conforme rolagem.
 
 ## Demosntração
 ![Projeto-NLW-Rocketseat-Beautysalon](https://user-images.githubusercontent.com/59830792/170125703-bfc7f578-d3b2-4502-862a-455b2843b564.gif)
 
 
+
+
+
+
+<h4 align="center"> 
+    :construction:  Projeto construido na NLW da Rocketseat  :construction:
+</h4>
